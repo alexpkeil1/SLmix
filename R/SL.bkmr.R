@@ -7,12 +7,12 @@ function(Y, X, newX, family, obsWeights, id, ...){
         newX = as.data.frame(newX)
     }
     if (family$family == "gaussian") {
-      fit = kmbayes(y=Y,Z=X, iter = 1000, family = "gaussian", verbose = FALSE)
+      fit = bkmr::kmbayes(y=Y,Z=X, iter = 1000, family = "gaussian", verbose = FALSE)
     }
     if (family$family == "binomial") {
-      fit = kmbayes(y=Y,Z=X, iter = 1000, family = "binomial", verbose = FALSE)
+      fit = bkmr::kmbayes(y=Y,Z=X, iter = 1000, family = "binomial", verbose = FALSE)
     }
-    pMat <- SamplePred(fit, Znew=newX, Xnew = cbind(0), type='response')
+    pMat <- bkmr::SamplePred(fit, Znew=newX, Xnew = cbind(0), type='response')
     pred <- as.numeric(apply(pMat, 2, mean))
     class(fit) <- c("SL.bkmr")
     out <- list(pred = pred, fit = fit)
