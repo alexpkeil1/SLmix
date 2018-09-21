@@ -1,7 +1,7 @@
 \name{ml.wqs.est}
 \alias{ml.wqs.est}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{ SLMix package
 %%  ~~function to do ... ~~
 }
 \description{

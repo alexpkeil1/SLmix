@@ -1,7 +1,7 @@
 \name{ml.quantile.fn}
 \alias{ml.quantile.fn}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{ SLMix packageml.quantile.fn
 %%  ~~function to do ... ~~
 }
 \description{

@@ -1,7 +1,7 @@
 \name{predict.ml.wqs}
 \alias{predict.ml.wqs}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{ SLMix package
 %%  ~~function to do ... ~~
 }
 \description{

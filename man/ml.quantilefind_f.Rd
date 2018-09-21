@@ -1,7 +1,7 @@
 \name{ml.quantilefind_f}
 \alias{ml.quantilefind_f}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{ SLMix packageml.quantilefind_f
 %%  ~~function to do ... ~~
 }
 \description{

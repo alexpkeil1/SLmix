@@ -2,8 +2,8 @@
 \alias{SLmix-package}
 \alias{SLmix}
 \docType{package}
-\title{
-\packageTitle{SLmix}
+\title{ SLMix package
+\packagetitle{ SLMix packageSLmix}
 }
 \description{
 \packageDescription{SLmix}

@@ -1,7 +1,7 @@
 \name{SL.wqs}
 \alias{SL.wqs}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{
+\title{ SLMix package
 %%  ~~function to do ... ~~
 }
 \description{
