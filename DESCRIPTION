@@ -1,0 +1,13 @@
+Package: SLmix
+Type: Package
+Title: Extensions of Bayesian Kernel Machine Regression and Weighted Quantile Sums for prediction and integration with SuperLearner package
+Version: 1.0
+Date: 2018-09-21
+Author: Alex Keil
+Maintainer: Alex Keil <akeil@unc.edu>
+Description: Includes functions ml.gwqs and ml.wqs.est which perform (general) weighted quantile
+  sums based on the package defaults of 'wqs' and 'gWQS', but which additionally allow
+  prediction using novel data. Also includes functions SL.bkmr, SL.gwqs, and SL.wqs which are
+  wrappers for kmbayes (BKMR package), ml.gwqs and ml.wqs.est for use the R SuperLearner
+  package. 
+License: Released under the GNU General Public License: http://www.gnu.org/copyleft/gpl.html
