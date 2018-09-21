@@ -39,5 +39,5 @@ function (y.train, x.train, z.train = NULL, y.valid = y.train, x.valid = x.train
         final$fit, q.train.quantiles)
     names(out) <- c("q.train", "q.valid", "wts.matrix", "weights", 
         "WQS", "fit", "training.quantiles")
-    return(out)
+    return(structure(out, class='ml.wqs'))
 }

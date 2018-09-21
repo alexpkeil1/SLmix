@@ -13,5 +13,5 @@ function(fit, mix_name, newdata){
     newZ <- cbind(newZ, newdata[,(dimw+1):dimx])
     names(newZ) <- cbind("wqs", names(newdata)[(dimw+1):dimx])
   }
- predict.glm(fit$fit, newZ, envir = fit$env, type='response')
+ predict(fit$fit, newZ, envir = fit$env, type='response')
 }

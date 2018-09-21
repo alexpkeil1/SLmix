@@ -13,5 +13,5 @@ function(ml.wqs.res, newdata){
     names(newZ) <- cbind("WQS", names(newdata)[(dimw+1):dimx])
 
   }
- predict.glm(ml.wqs.res$fit, newZ, envir = ml.wqs.res$env)
+ predict(ml.wqs.res$fit, newZ, envir = ml.wqs.res$env)
 }

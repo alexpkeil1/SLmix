@@ -12,7 +12,7 @@ function (Y, X, newX, family, obsWeights, id, B=20, n.quantiles=4, ...) {
     if (family$family == "binomial") {
       wqsfit = ml.wqs.est(y.train=Y, x.train=X, z.train=NULL, n.quantiles = n.quantiles, B=B, b1.pos=TRUE)
     }
-    pred <- predict.ml.wqs(wqsfit, newdata=newX)
+    pred <- predict(wqsfit, newdata=newX)
     class(wqsfit) <- c("SL.wqs")
     out <- list(pred = pred, fit = wqsfit)
     return(out)

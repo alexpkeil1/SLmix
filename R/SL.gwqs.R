@@ -14,7 +14,7 @@ function (Y, X, newX, family, obsWeights, id, b=20, q=4, validation = 0.0, ...) 
     if (family$family == "binomial") {
       gwqsfit = ml.gwqs(Y ~ NULL, mix_name=nm, data=X, q = q, b=b, b1_pos=TRUE, family='binomial')
     }
-    pred <- predict.ml.gwqs(fit=gwqsfit, mix_name=nm, newdata=newX)
+    pred <- predict(fit=gwqsfit, mix_name=nm, newdata=newX)
     class(gwqsfit) <- c("SL.gwqs")
     out <- list(pred = pred, fit = gwqsfit)
     return(out)

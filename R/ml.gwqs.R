@@ -103,5 +103,5 @@ function (formula, mix_name, data, q = 4, validation = 0.6, valid_var = NULL,
     names(results) = c("fit", "conv", "wb1pm", "y_adj", "wqs", 
         "index_b", "data_t", "data_v", "final_weights", "fit_2", 
         "aov", "training.quantiles")
-    return(results)
+    return(structure(results, class='ml.gwqs'))
 }
