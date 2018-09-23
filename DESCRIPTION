@@ -11,3 +11,8 @@ Description: Includes functions ml.gwqs and ml.wqs.est which perform (general) w
   wrappers for kmbayes (BKMR package), ml.gwqs and ml.wqs.est for use the R SuperLearner
   package. 
 License: Released under the GNU General Public License: http://www.gnu.org/copyleft/gpl.html
+Imports: 
+  bkmr,
+  gWQS,
+  wqs,
+
